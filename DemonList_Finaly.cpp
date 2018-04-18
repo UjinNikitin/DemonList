@@ -120,7 +120,7 @@ public:
 				Head = Head->prev;
 				Head->stroka = x;
 				Head->next = temp;
-				Tail->prev = NULL;
+				Head->prev = NULL;
 			}
 			else //Если список пустой
 			{
